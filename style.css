@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+    font-size: 62.5%;
+}
+
+.card{
+    border: 2px #414141cc;
+    background-color: #177e89e6;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin: 10px 0px ;
+    
+}
+.carousel{
+    padding: 5px;
+}
+.button{
+    background-color: #f4772a;
+    padding: 2px;
+    
+}
