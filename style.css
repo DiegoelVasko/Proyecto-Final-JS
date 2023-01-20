@@ -6,12 +6,26 @@
 html{
     font-size: 62.5%;
 }
+.navbar{
+    background-image: url(./img/fondo_header.jpg);
+    opacity: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    padding: 0 auto; 
+}
+.navbar-brand{
+    width: 150px;
+}
+main{
+    margin-top: 200px;
+}
 
 .card{
     border: 2px #414141cc;
     background-color: #177e89e6;
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 35% 65%;
     margin: 10px 0px ;
     
 }
