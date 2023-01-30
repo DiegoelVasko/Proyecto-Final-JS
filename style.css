@@ -5,6 +5,12 @@
 }
 html{
     font-size: 62.5%;
+    font-family: "Signika Negative", sans-serif;
+    font-variant: small-caps;
+    
+}
+body{
+    background-color: #b5bbb2;
 }
 .navbar{
     background-image: url(./img/fondo_header.jpg);
@@ -13,14 +19,40 @@ html{
     background-repeat: no-repeat;
     position: fixed;
     padding: 0 auto; 
+    --bs-navbar-toggler-icon-bg: none
 }
 .navbar-brand{
-    width: 150px;
+    width: 120px;
 }
+.navbar-toggler-icon{
+    width: 30px;
+    height: 30px;
+    color: #f4772a;
+}
+#loggin{
+    margin-left: 700px;
+}
+.show{
+    background-color: #414141;
+}
+.offcanvas-title{
+    color: #acbfa4;
+    font-size: 2.4em;
+}
+
+
 main{
     margin-top: 200px;
 }
-
+.tittle{
+    color: #177e89e6;
+    font-weight: bolder;
+    font-size: 4.8em;
+    text-align: center;
+    font-family: "Acme", sans-serif;
+    padding: 2rem;
+    text-shadow: 5px 5px 10px #414141cc;
+}
 .card{
     border: 2px #414141cc;
     background-color: #177e89e6;
@@ -29,11 +61,44 @@ main{
     margin: 10px 0px ;
     
 }
+.card-brand{
+    font-size: 1.8em;
+    color: #acbfa4 ;
+    position: absolute;
+    right: 30px;
+    
+}
+.card-title{
+    margin-top: 30px;
+    font-size: 3.2em;
+    color: #acbfa4 ;
+    
+}
+.card-text{
+    font-size: 1.6em;
+}
+.card-price{
+    position: absolute;
+    right: 30px;
+    bottom: 40px;
+    color: #acbfa4;
+    font-size: 1.8em;
+}
+.botonAgregar{
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+
+}
 .carousel{
     padding: 5px;
 }
 .button{
     background-color: #f4772a;
     padding: 2px;
-    
+    border-radius: 6px ;
+    border-color: #c4c4c499;
+}
+.marca{
+    margin: 30px 500px;
 }
