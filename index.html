@@ -17,7 +17,7 @@
         <div class="container-fluid">
             <img class="navbar-brand" src="./img/pulpostorelogo.svg"></img>
             <button id="loggin" class="button">Ingreso</button>
-            <button class="navbar-toggler" id="verCarrito" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <button class="navbar-toggler" id="verCarro" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
               <img class="navbar-toggler-icon" src="/img/bag-shopping-solid.svg"></img>
             </button>
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -25,10 +25,10 @@
                 <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Mi Compra</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div id="contenedorCarrito" class="offcanvas-body"></div>
+            <div id="contenedorCarro" class="offcanvas-body"></div>
             <div>
-              <button class="button" id="vaciarCarrito">Vaciar Carrito</button>
-              <button class="button" id="comprarCarrito">Comprar</button>
+              <button class="button" id="vaciarCarro">Vaciar Carro</button>
+              <button class="button" id="comprarCarro">Comprar</button>
               
             </div>
           </div>
@@ -39,17 +39,15 @@
 <main>
     <div class="Inicio">
       <h1 class="tittle">Productos</h1>
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Ordenar por
-        </button>
-        <ul class="dropdown-menu">
-          <li><button class="dropdown-item" type="button">Menor Precio</button></li>
-          <li><button class="dropdown-item" type="button">Mayor Precio</button></li>
-          <li><button class="dropdown-item" type="button">A - Z</button></li>
-          <li><button class="dropdown-item" type="button">Z - A</button></li>
-        </ul>
-      </div>
+      <label for="orden">Ordenar Por:</label>
+        <select name="orden" id="orden">
+            <option selected></option>
+            <option value="menorPrecio">Menor Precio</option>
+            <option value="mayorPrecio" >Mayor Precio</option>
+            <option value="az">A - Z</option>
+            <option value="za">Z - A</option>
+        </select>
+      
     </div>
 
     <div id="contenedorProductos" class="container"></div>
