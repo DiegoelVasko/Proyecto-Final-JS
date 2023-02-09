@@ -10,11 +10,12 @@ class Producto {
         this.img3 = img3;
         this.img4 = img4;
         this.descripcion = descripcion;
-        this.cantidad = 0; 
+        this.cantidad = 1; 
     }
 }
 
-const producto1 = new Producto (1, 
+const producto1 = new Producto (
+    1, 
      "ADIDAS",
      "D.O.N ISSUE 3 'SAY CHEESE'",
      120,
@@ -25,7 +26,8 @@ const producto1 = new Producto (1,
      "img/adidas_don_issue_3_5.jpg",
      "La tercera zapatilla exclusiva de Donovan Mitchell de ADIDAS Basketball es una celebración del viaje de Spida para convertirse en uno de los mejores jugadores del juego. El don. El número 3 destaca los capítulos del camino de Donovan hacia la grandeza. Desde los sueños de la infancia hasta el estatus de superestrella, estas zapatillas de baloncesto para jóvenes destacan el ascenso de Donovan Mitchell a la cima"
     );
-const producto2 = new Producto (2, 
+const producto2 = new Producto (
+    2, 
      "NIKE",
      "KD 14 'KY-D'",
      135,
@@ -36,7 +38,8 @@ const producto2 = new Producto (2,
      "img/nike_kd14_lime_glow_5.jpg",
      "Kevin Durant acecha en el ala, esperando al momento perfecto para atacar y abrirse camino entre la defensa. Las KD14 están diseñadas para ayudar a los jugadores versátiles e implacables como KD a mantener la frescura durante todo el partido. El tejido de malla multicapa y la correa del mediopié ayudan a reducir el movimiento del pie dentro de la zapatilla. La amortiguación Zoom Air completa y la espuma Cushlon ofrecen un gran retorno de la energía para disfrutar de un rendimiento duradero."
     );
-const producto3 = new Producto (3,
+const producto3 = new Producto (
+    3,
     "ADIDAS",
     "DAME 8 '4TH QUARTER KO'",
     120,
@@ -47,7 +50,8 @@ const producto3 = new Producto (3,
     "img/adidas_dame_8_5.jpg",
     "Los campeones se forjan bajo el aro. Damian Lillard traslada a la cancha su estilo de superestrella. Esta zapatilla de Dame y adidas Baloncesto refleja la pasión del jugador que ya desde niño apuntaba maneras y hoy ha llegado a la cima del deporte mundial a base de esfuerzo y dedicación. Luce un emblema de 'Knockout Champ' en la parte posterior para dejar claro al rival quién es el campeón."
    );
-const producto4 = new Producto (4,
+const producto4 = new Producto (
+    4,
     "NIKE",
     "ZOOM FREAK 3 'FREEZING TIME'",
     99.99,
@@ -58,7 +62,8 @@ const producto4 = new Producto (4,
     "img/nike_zoom_freak_3_5.jpg",
     "Giannis combina su juego atlético con grandes zancadas, fintas de salida y la capacidad de jugar en cualquier posición: nadie se interpone en su camino a canasta. Las Zoom Freak 3 le permiten aprovechar al máximo sus habilidades únicas y maximizar su impacto en el partido.La amortiguación y el retorno de energía, la sujeción lateral y la tracción multidireccional ayudan a los jugadores multidimensionales, como Giannis, a crear espacio y mantener el control."
    );
-const producto5 = new Producto (5,
+const producto5 = new Producto (
+    5,
     "JORDAN",
     "ZOOM SEPARATE 'MAVS'",
     110,
@@ -69,7 +74,8 @@ const producto5 = new Producto (5,
     "img/jorda_zoom_separate_mavs_5.jpg",
     "El step-back fue el movimiento de inspiración para la Jordan Zoom Separate. Un diseño liviano y de corte bajo diseñado para ayudar a tomar el control de la cancha. La amortiguación es más firme en el exterior del pie y más suave en el interior, por lo que puedes presionar con fuerza contra el suelo mientras te inclinas para cambiar de dirección. La unidad Zoom Air te ayuda a separarte del defensor para tener una vista clara de la canasta"
    );
-const producto6 = new Producto (6,
+const producto6 = new Producto (
+    6,
     "NIKE",
     "KYRIE 8 'FIRE & ICE'",
     99.99,
@@ -80,7 +86,8 @@ const producto6 = new Producto (6,
     "img/nike_kyrie_8_6.jpg",
     "Juega con el estilo y la chispa de una estrella. Kyrie Irving ha confeccionado sus zapatillas para brindar flexibilidad y un ajuste ceñido, de modo que puedas cruzar y cambiar de dirección rápidamente en la cancha"
    );
-const producto7 = new Producto (7,
+const producto7 = new Producto (
+    7,
     "NEW BALANCE",
     "KAWHI 'POWER SOURCE'",
     160,
@@ -91,7 +98,8 @@ const producto7 = new Producto (7,
     "img/nb_kawhi_bbklsqua_5.jpg",
     "Diseñada con el dos veces campeón de la NBA y MVP de las Finales de la NBA, Kawhi Leonard, la KAWHI de New Balance se ha creado para jugar en cualquier posición, al mismo tiempo que incorpora detalles diseñados por Kawhi, suficientemente duraderas para mantener tu estilo de juego independiente, y suficientemente suaves para llevarlas en casa."
    );
-const producto8 = new Producto (8,
+const producto8 = new Producto (
+    8,
     "UNDER ARMOUR",
     "Curry 9 Sesame Street 'Count It'",
     149.99,
@@ -102,7 +110,8 @@ const producto8 = new Producto (8,
     "img/under_armour_curry_9_sesame_street_count_it_5.jpg",
     "Las Curry 9 se basan en el éxito de las Curry Flow 8. La nueva tecnología superior de baloncesto de Under Armour que mejora la estabilidad del pie. UA Warp funciona en conjunto con UA Flow, con cintas de soporte que bloquean el pie en la entresuela UA Flow al tiempo que permiten un movimiento natural."
    );
-const producto9 = new Producto (9,
+const producto9 = new Producto (
+    9,
     "NIKE",
     "LEBRON 19 'MINNEAPOLIS LAKERS'",
     149.99,
@@ -113,7 +122,8 @@ const producto9 = new Producto (9,
     "img/nike_lebron_19_5.jpg",
     "Las LeBron 19 canalizan la energía con un ajuste firme y un sistema de amortiguación actualizado. La funda interior ceñida se combina con un revestimiento esculpido por el que entran los cordones para evitar que el pie se mueva dentro de las zapatillas.Las almohadillas integradas en la lengüeta y la zona del tobillo contribuyen a reducir el peso, mantener el tobillo alineado y dar al jugador la seguridad y la confianza que necesita para darlo todo cuando el partido está en juego."
    );
-const producto10 = new Producto (10,
+const producto10 = new Producto (
+    10,
     "JORDAN",
     "Air Jordan 36 'Black Infrared'",
     185,
@@ -124,7 +134,8 @@ const producto10 = new Producto (10,
     "img/air_jordan_36_black_infrared_5.jpg",
     "Corre rápido y ligero con las Air Jordan XXXVI, la nueva expresión de ligereza y velocidad de la franquicia."
    );
-const producto11 = new Producto (11,
+const producto11 = new Producto (
+    11,
     "ADIDAS",
     "TRAE YOUNG 1 'PIXELS'",
     130,
@@ -135,7 +146,8 @@ const producto11 = new Producto (11,
     "img/adidas_trae_young_2_pixels_5.jpg",
     "La Trae Young 1 combina la apariencia inigualable y el estilo de juego único de Trae con la máxima agilidad, contención y comodidad. Cada combinación de colores de la colección busca capturar el estilo y la personalidad distintivos de Young al mismo tiempo que proporciona las mejores tecnologías. Este producto está elaborado con contenido reciclado ayudando a acabar con los residuos plásticos y es que el 20% de las piezas utilizadas para hacer la parte superior se fabrican con un mínimo de 50% de contenido reciclado."
    );
-const producto12 = new Producto (12,
+const producto12 = new Producto (
+    12,
     "ADIDAS",
     "HARDEN VOL.6 'HIGHLIGHTER''",
     140,
@@ -146,6 +158,8 @@ const producto12 = new Producto (12,
     "img/adidas_harden_vol6_5.jpg",
     "Golpea cuando tu oponente menos lo espere. Conduce hasta el aro, sube desde lo más profundo y deja a los defensores a tu paso, como James Harden. Una entresuela Boost proporciona el retorno de energía que necesita, desde el pitido inicial hasta los últimos segundos agotadores de tiempo extra. Las bandas en el antepié y el talón brindan una sensación de seguridad durante todo el juego"
    );
+
+
 const productos = [producto1, producto2, producto3, producto4, producto5, producto6, producto7, producto8, producto9, producto10, producto11, producto12]
 console.log(productos);
 
@@ -271,18 +285,29 @@ const agregarAlCarro = (id) => {
     } else {
         const producto = productos.find(producto => producto.id === id);
         carro.push(producto);
-        //Trabajamos con el localStorage: 
+        
         localStorage.setItem("carro", JSON.stringify(carro));
     }
     calcularTotal();
+
+    Toastify({
+        text: "Agregado al Carro",
+        duration: 3000,
+        gravity: "bottom",
+        position: "right",
+        destination: "https://www.google.com",
+        style:
+        {
+            background: "#f4772a",
+        }
+    }).showToast();
 }
 
-mostrarProductos();
 
 
 
 
-//MOSTRAR EL CARRO DE COMPRAS. 
+//MOSTRAR EL CARRO  
 
 const contenedorCarro = document.getElementById("contenedorCarro");
 
@@ -304,26 +329,37 @@ const mostrarCarro = () => {
     carro.forEach(producto => {
         const card = document.createElement("div");
         card.innerHTML = `
-                    <div class = "card">
-                        <img src = "${producto.img1}" class = "card-img-top" >
-                        <div class ="card-body">
-                            <h3> ${producto.marca} </h3>
-                            <h4> ${producto.modelo}</h4>
-                            <p> ${producto.precio} </p>
-                            <button class= "btn colorBoton" id ="agregar${producto.id}" >+</button>
-                            <p> ${producto.cantidad} </p>
-                            <button class= "btn colorBoton" id ="desagregar${producto.id}" >-</button>
-                            <button class= "btn colorBoton" id ="eliminar${producto.id}" >X</button>
+                    <div class = "card carro">
+                        <div>
+                            <img class="carroImg" src = "${producto.img1}" >
+                        </div>
+                        <div class ="card-body ">
+                            <h4 class="carroMarca"> ${producto.marca} </h4>
+                            <h3 class="carroModelo"> ${producto.modelo}</h3>
+                            <p class="carroPrecio">U$S ${producto.precio} </p>
+                            <div class="carroBotones">
+                                <p class="carroTexto">CANTIDAD </p> 
+                                <span class="carroCantidad"> ${producto.cantidad}</span>
+                            <button class= "carroBoton" id ="eliminar${producto.id}" >X</button>
+                            </div>    
                         </div>
                     </div>`
 
         contenedorCarro.appendChild(card);
 
+        
+        
+        //Aumentar cantidad en el carro
+     
+
+
         //Eliminar productos del carro:
 
-        const boton = document.getElementById(`eliminar${producto.id}`);
-        boton.addEventListener("click", () => {
+        const botonEliminar = document.getElementById(`eliminar${producto.id}`);
+        botonEliminar.addEventListener("click", () => {
             eliminarDelCarro(producto.id);
+
+            
         })
     })
     calcularTotal();
@@ -332,8 +368,7 @@ const mostrarCarro = () => {
 
 
 
-
-//FEliminar producto del carro: 
+//Eliminar producto del carro: 
 
 const eliminarDelCarro = (id) => {
     const producto = carro.find( producto => producto.id === id);
@@ -343,11 +378,20 @@ const eliminarDelCarro = (id) => {
     mostrarCarro();
     
     localStorage.setItem("carro", JSON.stringify(carro));
+
+    Toastify({
+        text: "Producto Eliminado",
+        duration: 3000,
+        gravity: "bottom",
+        position: "right",
+        destination: "https://www.google.com",
+        style:
+        {
+            background: "#f4772a",
+             
+        }
+    }).showToast();
 }
-
-
-
-
 
 
 
@@ -356,10 +400,10 @@ const eliminarDelCarro = (id) => {
 const vaciarCarro = document.getElementById("vaciarCarro");
 
 vaciarCarro.addEventListener("click", () => {
-    eliminarTodoElCarro();
+    eliminarCarro();
 })
 
-const eliminarTodoElCarro = () => {
+const eliminarCarro = () => {
     carro = [];
     mostrarCarro();
     
@@ -369,9 +413,10 @@ const eliminarTodoElCarro = () => {
 
 
 
-//Mostramos mensaje con el total de la compra: 
+//Valor del carro 
 
 const total = document.getElementById("total");
+
 
 const calcularTotal = () => {
     let totalCompra = 0;
@@ -379,4 +424,58 @@ const calcularTotal = () => {
         totalCompra += producto.precio * producto.cantidad;
     })
     total.innerHTML = `Total: $${totalCompra}`;
+    
+   
+    
+
+    const criptoYa = "https://criptoya.com/api/dolar";
+    fetch(criptoYa)
+    .then(response => response.json())
+    .then(( {blue, solidario}) => {
+        console.log(blue)
+        console.log(solidario)  
+    })
 }
+
+ /*  
+const comprarCarro = document.getElementById("comprarCarro");  
+    comprarCarro.addEventListener("click", () => {
+        await Swal.fire({
+            title: 'Elija un método de pago:',
+            input: 'select',
+            inputOptions: {
+              'Método': {
+                efectivo: 'Efectivo',
+                unPago: 'Transferencia, Débito o Crédito (1 pago)',
+                cuotas: 'Crédito (3 ctas c/ interés)'
+              },
+    
+            },
+            showCancelButton: true,
+            inputValidator: (value) => {
+              return new Promise((resolve) => {
+                if (value === 'efectivo') {
+                  resolve('El total es: $')
+                } else {
+                  resolve('You need to select oranges :)')
+                }
+              })
+            }
+          })
+      })
+   
+
+/*    
+         
+let efectivo = (calcularTotal * blue) * .8 ;
+console.log(efectivo);
+let unPago= calcularTotal * solidario; 
+console.log(unPago);
+let cuotas= calcularTotal * solidario * 1.3;
+console.log(cuotas);
+
+    
+
+    
+     
+*/

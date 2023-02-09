@@ -13,7 +13,7 @@ body{
     background-color: #b5bbb2;
 }
 .navbar{
-    background-image: url(./img/fondo_header.jpg);
+    background-image: url(../img/fondo_header.jpg);
     opacity: 1;
     background-position: center;
     background-repeat: no-repeat;
@@ -40,6 +40,52 @@ body{
     font-size: 2.4em;
 }
 
+#contenedorCarro{
+    overflow: auto;
+}
+.carroImg{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 6px ;
+        
+}
+.carroMarca{
+    font-size: .8em;
+    color: #acbfa4 ;
+    
+    
+}
+.carroPrecio{
+    color: #f4772a;
+    font-size: 1.2em;
+    margin-left: 150px;
+}
+.carroBotones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.carroBoton{
+    border-radius: 6px ;
+    width: 2rem;
+    height: 2rem;
+    font-weight: bolder;
+    font-size: 1.2em;
+    background-color: #acbfa4;
+}
+.carroTexto{
+    font-size: 1.2em;
+}
+.carroCantidad{
+    background-color: azure;
+    border-radius: 6px ;
+    width: 2rem;
+    text-align: center;
+    font-size: 1.2em;
+    
+
+}
 
 main{
     margin-top: 200px;
